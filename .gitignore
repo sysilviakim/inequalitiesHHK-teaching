@@ -47,3 +47,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Local teaching-archive inputs and temp repos
+data/
+old/
+reference_repo/
+remote_push_repo/
