@@ -24,12 +24,13 @@ inequalitiesHHK-teaching/
 `-- README.md
 ```
 
-Only the `R/` scripts are currently tracked in the GitHub repo. The `data/`
-folder is expected locally.
+The repo tracks the `R/` scripts and the two small analysis-ready `.dta`
+inputs needed for replication. Derived files and generated outputs remain
+untracked.
 
 ## Required input data
 
-To run the workflow, place these two files in `data/raw/`:
+These two files are included in `data/raw/`:
 
 - `whyinequalitiespersist_replication.dta`
 - `whyinequalitiespersist_validation_replication.dta`

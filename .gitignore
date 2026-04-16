@@ -48,8 +48,12 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-# Local teaching-archive inputs and temp repos
-data/
+# Local teaching-archive data and temp repos
+data/*
+!data/raw/
+data/raw/*
+!data/raw/whyinequalitiespersist_replication.dta
+!data/raw/whyinequalitiespersist_validation_replication.dta
 old/
 reference_repo/
 remote_push_repo/
